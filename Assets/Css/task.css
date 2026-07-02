@@ -1,0 +1,156 @@
+/* ===========================
+   TASK MODULE
+=========================== */
+
+.task-card{
+    background:#ffffff;
+    border-radius:12px;
+    padding:30px;
+    box-shadow:0 5px 18px rgba(0,0,0,.08);
+}
+
+.task-title{
+    color:#2563eb;
+    font-size:34px;
+    margin-bottom:25px;
+}
+
+.task-form .input-group{
+    margin-bottom:20px;
+}
+
+.task-form label{
+    display:block;
+    font-weight:600;
+    margin-bottom:8px;
+    color:#374151;
+}
+
+.task-form input,
+.task-form textarea,
+.task-form select{
+
+    width:100%;
+    padding:14px;
+
+    border:1px solid #d1d5db;
+
+    border-radius:10px;
+
+    font-size:15px;
+
+    transition:.3s;
+}
+
+.task-form textarea{
+
+    min-height:140px;
+    resize:vertical;
+
+}
+
+.task-form input:focus,
+.task-form textarea:focus,
+.task-form select:focus{
+
+    border-color:#2563eb;
+    box-shadow:0 0 0 3px rgba(37,99,235,.15);
+    outline:none;
+
+}
+
+.task-btn{
+
+    width:100%;
+
+    background:#2563eb;
+
+    color:#fff;
+
+    border:none;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.task-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+/* Task Table */
+
+.task-table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    background:#fff;
+
+    margin-top:25px;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+    box-shadow:0 5px 18px rgba(0,0,0,.08);
+
+}
+
+.task-table th{
+
+    background:#2563eb;
+
+    color:#fff;
+
+    padding:15px;
+
+}
+
+.task-table td{
+
+    padding:15px;
+
+    border-bottom:1px solid #eee;
+
+}
+
+.task-table tr:hover{
+
+    background:#f8fafc;
+
+}
+
+/* Search */
+
+.task-search{
+
+    display:flex;
+
+    gap:12px;
+
+    margin:20px 0;
+
+}
+
+.task-search input,
+
+.task-search select{
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+
+}
