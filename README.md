@@ -113,11 +113,8 @@ http://localhost/StudyFlow/
 
 ## 👨‍💻 Author
 
-**Toufick Shik**
+Eshika Rani Pall
 
 GitHub:
 https://github.com/EEEshika
 
----
-
-## ⭐ If you like this project, give it a star!
