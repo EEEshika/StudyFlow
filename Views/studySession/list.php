@@ -64,7 +64,7 @@ include "../../Includes/sidebar.php";
    onclick="return confirm('Are you sure you want to delete this study session?');">
     Delete
 </a>
-
+     
 </td>
 
 </tr>
