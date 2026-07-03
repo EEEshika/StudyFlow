@@ -40,6 +40,18 @@
     </a>
 </li>
 
+<li>
+    <a href="/StudyFlow/Views/note/list.php">
+        📝 My Notes
+    </a>
+</li>
+
+<li>
+    <a href="/StudyFlow/Views/note/add.php">
+        ➕ Add Note
+    </a>
+</li>
+
 </ul>
 
 </div>
