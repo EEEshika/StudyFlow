@@ -90,20 +90,45 @@ http://localhost/StudyFlow/
 
 ## 📸 Screenshots
 
-Assets/
-    images/
-        screenshots/
-            dashboard.png
-            login.png
-            register.png
-            landing-page_1.png
-            landing-page_2.png
-            landing-page_3.png
-            add-task.png
-            add-note.png
-            my-task.png
-            notes.png
-            profile.png
+### Landing Page
+
+![Landing Page 1](Assets/images/screenshots/landing-page_1.png)
+
+![Landing Page 2](Assets/images/screenshots/landing-page_2.png)
+
+![Landing Page 3](Assets/images/screenshots/landing-page_3.png)
+
+### Login
+
+![Login](Assets/images/screenshots/login.png)
+
+### Register
+
+![Register](Assets/images/screenshots/register.png)
+
+### Dashboard
+
+![Dashboard](Assets/images/screenshots/dashboard.png)
+
+### Add Task
+
+![Add Task](Assets/images/screenshots/add-task.png)
+
+### Add Note
+
+![Add Note](Assets/images/screenshots/add-note.png)
+
+### My Tasks
+
+![My Tasks](Assets/images/screenshots/my-task.png)
+
+### Notes
+
+![Notes](Assets/images/screenshots/notes.png)
+
+### Profile
+
+![Profile](Assets/images/screenshots/profile.png)
 
 ---
 
