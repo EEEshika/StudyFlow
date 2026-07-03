@@ -90,15 +90,20 @@ http://localhost/StudyFlow/
 
 ## 📸 Screenshots
 
-- Landing Page
-- Login
-- Register
-- Dashboard
-- Subjects
-- Tasks
-- Notes
-- Study Session
-- Profile
+Assets/
+    images/
+        screenshots/
+            dashboard.png
+            login.png
+            register.png
+            landing-page_1.png
+            landing-page_2.png
+            landing-page_3.png
+            add-task.png
+            add-note.png
+            my-task.png
+            notes.png
+            profile.png
 
 ---
 
