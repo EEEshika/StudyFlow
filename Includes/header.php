@@ -33,6 +33,6 @@ if ($currentFolder == "profile") {
 }
 ?>
 
-</head>
 
-<body>
+</body>
+</html>

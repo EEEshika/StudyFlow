@@ -205,4 +205,28 @@ class Note
 
         return $stmt->get_result()->fetch_assoc()['total'];
     }
+
+
+    public function getRecentNotes($user_id)
+{
+    $sql="SELECT
+            title,
+            created_at
+          FROM user_notes
+          WHERE user_id=?
+          ORDER BY id DESC
+          LIMIT 5";
+
+    $stmt=$this->conn->prepare($sql);
+
+    if(!$stmt){
+        die($this->conn->error);
+    }
+
+    $stmt->bind_param("i",$user_id);
+
+    $stmt->execute();
+
+    return $stmt->get_result();
+}
 }

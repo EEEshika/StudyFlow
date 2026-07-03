@@ -60,12 +60,9 @@ include "../../Includes/sidebar.php";
 
 <td>
 
-<a
-href="../../Controllers/studySessionController.php?action=delete&id=<?= $row['id']; ?>"
-onclick="return confirm('Delete Session?')">
-
-Delete
-
+<a href="../../Controllers/studySessionController.php?action=delete&id=<?= $row['id']; ?>"
+   onclick="return confirm('Are you sure you want to delete this study session?');">
+    Delete
 </a>
 
 </td>

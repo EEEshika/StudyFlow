@@ -154,12 +154,9 @@ Edit
 
 |
 
-<a
-href="../../Controllers/noteController.php?action=delete&id=<?= $row['id']; ?>"
-onclick="return confirm('Delete this note?')">
-
-Delete
-
+<a href="../../Controllers/noteController.php?action=delete&id=<?= $row['id']; ?>"
+   onclick="return confirm('Are you sure you want to delete this note?');">
+    Delete
 </a>
 
 </td>

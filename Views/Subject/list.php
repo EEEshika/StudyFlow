@@ -93,14 +93,10 @@ Edit
 
 |
 
-<a
-href="../../Controllers/subjectController.php?action=delete&id=<?= $row['id'] ?>"
-onclick="return confirm('Delete this subject?')">
-
-Delete
-
+<a href="../../Controllers/subjectController.php?action=delete&id=<?= $row['id']; ?>"
+   onclick="return confirm('Are you sure you want to delete this subject?');">
+    Delete
 </a>
-
 </td>
 
 </tr>

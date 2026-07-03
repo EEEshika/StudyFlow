@@ -162,12 +162,9 @@ Complete
 
 |
 
-<a
-href="../../Controllers/taskController.php?action=delete&id=<?= $row['id']; ?>"
-onclick="return confirm('Delete Task?')">
-
-Delete
-
+<a href="../../Controllers/taskController.php?action=delete&id=<?= $row['id']; ?>"
+   onclick="return confirm('Are you sure you want to delete this task?');">
+    Delete
 </a>
 
 </td>

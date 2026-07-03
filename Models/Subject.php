@@ -119,4 +119,21 @@ class Subject
 
         return $stmt->execute();
     }
+
+
+    // Total Subjects
+public function getTotalSubjects($user_id)
+{
+    $sql = "SELECT COUNT(*) AS total
+            FROM subjects
+            WHERE user_id=?";
+
+    $stmt = $this->conn->prepare($sql);
+
+    $stmt->bind_param("i",$user_id);
+
+    $stmt->execute();
+
+    return $stmt->get_result()->fetch_assoc()['total'];
+}
 }

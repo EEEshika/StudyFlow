@@ -302,4 +302,29 @@ public function updateTask(
 
     return true;
 }
+
+
+public function getRecentTasks($user_id)
+{
+    $sql = "SELECT
+                title,
+                priority,
+                due_date
+            FROM tasks
+            WHERE user_id=?
+            ORDER BY id DESC
+            LIMIT 5";
+
+    $stmt = $this->conn->prepare($sql);
+
+    if(!$stmt){
+        die($this->conn->error);
+    }
+
+    $stmt->bind_param("i",$user_id);
+
+    $stmt->execute();
+
+    return $stmt->get_result();
+}
 }
