@@ -15,8 +15,15 @@ Welcome Back
 </div>
 
 <?php
-if (isset($_GET['registered'])) {
-    echo "<p style='color:green;text-align:center;'>Registration Successful! Please Login.</p>";
+if(isset($_SESSION['login_error'])){
+?>
+<div class="error-message">
+    <?php
+    echo $_SESSION['login_error'];
+    unset($_SESSION['login_error']);
+    ?>
+</div>
+<?php
 }
 ?>
 

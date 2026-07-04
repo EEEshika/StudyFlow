@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <?php include "../../Includes/header.php"; ?>
 
 <div class="auth-container">
@@ -13,6 +17,20 @@ StudyFlow
 Create your account
 
 </div>
+
+
+<?php
+if(isset($_SESSION['register_error'])){
+?>
+<div class="error-message">
+    <?php
+    echo $_SESSION['register_error'];
+    unset($_SESSION['register_error']);
+    ?>
+</div>
+<?php
+}
+?>
 
 <form
 action="../../Controllers/authController.php"
