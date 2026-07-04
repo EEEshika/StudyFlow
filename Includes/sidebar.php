@@ -17,7 +17,7 @@
 </li>
 
 <li>
-    <a href="../subject/list.php">📚 Subjects</a>
+    <a href="../Subject/list.php">📚 Subjects</a>
 </li>
 
 <li>
