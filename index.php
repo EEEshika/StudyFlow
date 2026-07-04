@@ -26,7 +26,7 @@ StudyFlow | Student Productivity System
 
 <link
 rel="stylesheet"
-href="Assets/css/landing.css">
+href="Assets/Css/landing.css">
 
 <link
 rel="preconnect"

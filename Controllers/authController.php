@@ -27,10 +27,15 @@ if (isset($_POST['register'])) {
     }
 
     if ($user->register($fullname, $email, $password)) {
-        echo "Registration Successful!";
-    } else {
-        echo "Registration Failed!";
-    }
+
+    header("Location: ../Views/Auth/login.php?registered=1");
+    exit();
+
+} else {
+
+    die("Registration Failed!");
+
+}
 }
 
 

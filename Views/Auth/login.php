@@ -14,6 +14,12 @@ Welcome Back
 
 </div>
 
+<?php
+if (isset($_GET['registered'])) {
+    echo "<p style='color:green;text-align:center;'>Registration Successful! Please Login.</p>";
+}
+?>
+
 <form action="../../Controllers/authController.php" method="POST">
 
 <div class="input-group">

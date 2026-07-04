@@ -7,29 +7,29 @@
 
 <title>StudyFlow</title>
 
-<link rel="stylesheet" href="../../Assets/css/style.css">
+<link rel="stylesheet" href="../../Assets/Css/style.css">
 
 <?php
 $currentFolder = basename(dirname($_SERVER['PHP_SELF']));
 
 if ($currentFolder == "Auth") {
-    echo '<link rel="stylesheet" href="../../Assets/css/auth.css">';
+    echo '<link rel="stylesheet" href="../../Assets/Css/auth.css">';
 }
 
 if ($currentFolder == "dashboard") {
-    echo '<link rel="stylesheet" href="../../Assets/css/dashboard.css">';
+    echo '<link rel="stylesheet" href="../../Assets/Css/dashboard.css">';
 }
 
 if ($currentFolder == "task") {
-    echo '<link rel="stylesheet" href="../../Assets/css/task.css">';
+    echo '<link rel="stylesheet" href="../../Assets/Css/task.css">';
 }
 
 if ($currentFolder == "subject") {
-    echo '<link rel="stylesheet" href="../../Assets/css/subject.css">';
+    echo '<link rel="stylesheet" href="../../Assets/Css/subject.css">';
 }
 
 if ($currentFolder == "profile") {
-    echo '<link rel="stylesheet" href="../../Assets/css/profile.css">';
+    echo '<link rel="stylesheet" href="../../Assets/Css/profile.css">';
 }
 ?>
 
